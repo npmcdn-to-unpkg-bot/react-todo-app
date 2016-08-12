@@ -1,0 +1,12 @@
+[
+    {
+        "id": "ay74q60ymmsoi2486kndx11yvi",
+        "text": "Learn React from scratch",
+		"done": false
+    },
+    {
+        "id": "xohea8gjw2h1ios2bk0jatt9",
+        "text": "Learn webpack with react",
+		"done": false
+    }
+]

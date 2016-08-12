@@ -1,0 +1,11 @@
+body {
+  padding-top: 50px;
+  background: #aaa;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+.todoList {
+  list-style: none;
+}
