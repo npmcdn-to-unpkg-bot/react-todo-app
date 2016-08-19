@@ -40,19 +40,18 @@ app.post('/api/todo', function(req, res) {
       console.error(err);
       process.exit(1);
     }
-    var comments = JSON.parse(data);
-    var newComment = {
-      id: Date.now(),
-      author: req.body.author,
-      text: req.body.text,
+    var todos = JSON.parse(data);
+    var newTodo = {
+      id: '_' + Math.random().toString(36).substring(2) + Math.random().toString(36).substring(2),
+      text: req.body.tname
     };
-    comments.push(newComment);
-    fs.writeFile(TODOS_FILE, JSON.stringify(comments, null, 4), function(err) {
+    todos.push(newTodo);
+    fs.writeFile(TODOS_FILE, JSON.stringify((req.body.update ? req.body.data : todos), null, 4), function(err) {
       if (err) {
         console.error(err);
         process.exit(1);
       }
-      res.json(comments);
+      res.json((req.body.update ? req.body.data : todos));
     });
   });
 });

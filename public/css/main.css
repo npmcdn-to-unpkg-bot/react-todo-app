@@ -9,3 +9,12 @@ body {
 .todoList {
   list-style: none;
 }
+.todoList li {
+  border-bottom: 1px solid #aaa;
+}
+#todoBtn {
+  margin-left: 10px;
+}
+.rmv {
+  margin-left: 20px;
+}

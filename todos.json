@@ -1,12 +1,18 @@
 [
     {
-        "id": "ay74q60ymmsoi2486kndx11yvi",
-        "text": "Learn React from scratch",
-		"done": false
+        "id": "_ay74q60ymmsoi2486kndx11yvi",
+        "text": "Learn React from scratch"
     },
     {
-        "id": "xohea8gjw2h1ios2bk0jatt9",
-        "text": "Learn webpack with react",
-		"done": false
+        "id": "_xohea8gjw2h1ios2bk0jatt9",
+        "text": "Learn webpack with react"
+    },
+    {
+        "id": "_sth5d7yl4ifnu3dim2crmshv54we9udi",
+        "text": "Create a method for generating UUID"
+    },
+    {
+        "id": "_2tldojbszh7ojemifte5xc0dw13piudi",
+        "text": "Understand React JSX in depth"
     }
 ]
